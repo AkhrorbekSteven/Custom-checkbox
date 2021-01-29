@@ -87,3 +87,72 @@ label input:checked:disabled + .controller {
 label input:focus + .controller {
     box-shadow: 0 0 0 2px #0e85f3;
 }
+.dialog {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.dialog-bar {
+    width: 819px;
+    height: 231px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.dialog-bar div {
+    display: flex;
+    justify-content: flex-end;
+}
+.dialog-bar div button {
+    border: none;
+    background-color: #fff;
+}
+.dialog-bar div button:focus {
+    outline: none;
+}
+.dialog-bar div button img {
+    display: block;
+}
+.dialog-bar>p {
+    width: 678px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+    color: #295093;
+    font-family: 'Rubik', sans-serif;
+}
+.dialog-bar a {
+    padding: 12px 20px;
+    width: 223px;
+    margin: auto;
+    background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.dialog-bar a img {
+    margin-right: 10px;
+}
+.dialog-bar a p {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    font-family: 'Rubik', sans-serif;
+}
+.dialog-close {
+    display: none;
+}
